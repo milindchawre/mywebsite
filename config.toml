@@ -1,0 +1,434 @@
+# Page settings
+
+baseURL = "https://milindchawre.github.io/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "MilindChawre"
+    description = "DevOps Engineer Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Milind Chawre"
+        tagline = "DevOps Engineer"
+        avatar = "myavatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Pune, India"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+91-xxxxxxxxxx"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "milindchawre@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "http://milindchawre.github.io"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Bash/Python/Golang"
+	[[params.skills.list.items]]
+        details = "Docker/Helm/Packer"
+        [[params.skills.list.items]]
+        details = "Kubernetes/Mesos/Rancher"
+	[[params.skills.list.items]]
+        details = "ELB/Haproxy"
+	[[params.skills.list.items]]
+        details = "Kafka"
+        [[params.skills.list.items]]
+        details = "Terraform/Vagrant/Ansible"
+        [[params.skills.list.items]]
+        details = "AWS/Openstack"
+        [[params.skills.list.items]]
+        details = "Linux/Centos/Ubuntu"
+	[[params.skills.list.items]]
+        details = "Elasticsearch/Logstash/Fluentd/Kibana"
+	[[params.skills.list.items]]
+        details = "Grafana/Prometheus"
+	[[params.skills.list.items]]
+        details = "Postgresql/MongoDB/DynamoDB"
+        [[params.skills.list.items]]
+        details = "Infrastructure Automation"
+        [[params.skills.list.items]]
+        details = "Building complex microservice architecture"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BE Computer"
+        university = "Maharashtra Institute of Technology"
+        dates = "2011 - 2015"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Open sorcerer Award"
+        body = "Open source contribution in Docker"
+        date = "2016"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Native"
+	[[params.languages.list]]
+        name = "Marathi"
+        level = "Native"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Table Tennis"
+        [[params.interests.list]]
+        name = "Computers"
+	[[params.interests.list]]
+        name = "Gaming"
+        [[params.interests.list]]
+        name = "Reading"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I am DevOps Engineer working at TomTom with around 5 years of experience. As a devops/SRE role, have worked on different cutting edge technologies. I enjoy creating great products with great user experiences and working in a dynamic environment with a focus on good development practices, automation, frequent releases. An Open source contributor. Loves coding, debugging, systems, security, devops, containers, docker, kubernetes, cloud ..."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "Aug 2018 - Present"
+        company = "TomTom"
+        details = "Works as a sole devops engineer for a team of 20-25 developers. I build and owns end-to-end devops pipeline for the entire team. It includes designing, implementing and automating infrastructure along with monitoring, logging, alerting and operations part of the system in place."
+        [[params.experience.list.items]]
+        details = "Infrastructure Automation"
+	[[params.experience.list.items]]
+        details = "Containerization"
+        [[params.experience.list.items]]
+        details = "Centralized Logging"
+        [[params.experience.list.items]]
+        details = "Monitoring and alerting"
+	[[params.experience.list.items]]
+        details = "Continuous Integration and Continuous Delivery"
+	[[params.experience.list.items]]
+        details = "Incorporating devops culture in the team"
+
+        [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "July 2015 - Aug 2018"
+        company = "GSLAB"
+        details = "As a devops engineer, I worked on different cutting edge technologies in cloud computing, containers and devops space."
+        [[params.experience.list.items]]
+        details = "Cloud computing"
+	[[params.experience.list.items]]
+        details = "Containerization"
+        [[params.experience.list.items]]
+        details = "Infrastructure Automation"
+	[[params.experience.list.items]]
+        details = "Logging, Monitoring and alerting"
+	[[params.experience.list.items]]
+        details = "Handling Operations part of production system"
+        [[params.experience.list.items]]
+        details = "Incorporating devops culture in the team"
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Workflow"
+        meta = "Feb 2019 - Present"
+        tagline = "Workflow focuses on streamlining the entire map making process and making it more productive. Its a sort of BPM for map making process that will act as a workflow engine. It will track all the maps sources (leads) moving through different systems belonging to different departments in the company and will track and analyze this map data. This project is in POC phase."
+	technologies = "Technologies: Docker, Kubernetes, Rancher, Elasticsearch, Fluentd, Kibana, Grafana, Prometheus, Kafka, Helm, Cert Manager, Nginx Ingress, camunda."
+	[[params.projects.list.items]]
+	details = "Setting up production ready kubernetes cluster using rancher on AWS. Also evaluated kubespray tool."
+	[[params.projects.list.items]]
+        details = "Configured grafana as dashboard, prometheus for monitoring."
+	[[params.projects.list.items]]
+        details = "Configured Elasticsearch cluster with x-pack security enabled. Configured RBAC for kibana."
+	[[params.projects.list.items]]
+        details = "Configured kafka cluster with security features like encryption, authentication and authorization enabled."
+	[[params.projects.list.items]]
+        details = "Used helm charts to deploy any applications on kubernetes."
+	[[params.projects.list.items]]
+        details = "Used lets-encrypt cert manager to get valid ssl certificates."
+	[[params.projects.list.items]]
+        details = "Configured nginx ingress."
+	[[params.projects.list.items]]
+        details = "Configured java springboot application monitoring using micrometer prometheus metrics exposer."
+	[[params.projects.list.items]]
+        details = "Configured camunda bpmn engine on kubernetes."
+
+
+        [[params.projects.list]]
+        title = "Prithvi (Priority Through Varied Information)"
+        meta = "Aug 2018 - Present"
+        tagline = "Prithvi is an Map Quality Specification (MQS) tool, which defines the map quality. This system gives priority of particular location so that map editors can priorities there map editing tasks."
+	technologies = "Technologies: Java, HaProxy, Elasticsearch, Kibana, Docker, AWS, Jenkins, Terraform, Ansible,Kong, Cachet, Grafana, Prometheus."
+	[[params.projects.list.items]]
+        details = "Dockerizing the java applications."
+	[[params.projects.list.items]]
+        details = "Setting up AWS infrastructure using terraform and ansible."
+	[[params.projects.list.items]]
+        details = "Used different AWS services like EC2, VPC, IAM, Route53, ECR, RDS, Elasticache (Redis) etc."
+	[[params.projects.list.items]]
+        details = "Setting up Elasticsearch and kibana."
+	[[params.projects.list.items]]
+        details = "Configured elasticsearch backup and restore mechanism."
+	[[params.projects.list.items]]
+        details = "Configured RAID0 for elasticsearch."
+	[[params.projects.list.items]]
+        details = "Configured HaProxy load balancer."
+	[[params.projects.list.items]]
+        details = "Configured Kong as api gateway."
+	[[params.projects.list.items]]
+        details = "Configured jenkins job to automate the build and deployment process."
+	[[params.projects.list.items]]
+        details = "Evaluated Cachet (an open source tool similar to status page)."
+	[[params.projects.list.items]]
+        details = "Configured Grafana and Prometheus for monitoring."
+
+        [[params.projects.list]]
+        title = "SAMBA (Source AutoMation and Blending Agent)"
+        meta = "Aug 2018 - Dec 2018"
+        tagline = "SAMBA is a unified source database that will help in map making process. It ingests, and aggregates leads (map data) from various sources. This system overall helps map editors in there map editing tasks."
+	technologies = "Technologies: Nodejs, Java, MongoDB, Percona-monitoring, Docker, AWS, Jenkins, Terraform, Ansible."
+	[[params.projects.list.items]]
+        details = "Dockerizing the Nodejs frontend and java backend applications."
+	[[params.projects.list.items]]
+        details = "Setting up AWS infrastructure using terraform and ansible."
+	[[params.projects.list.items]]
+        details = "Used different AWS services like EC2, VPC, IAM, Route53, ECR, etc."
+	[[params.projects.list.items]]
+        details = "Setting up MongoDB replicaset."
+	[[params.projects.list.items]]
+        details = "Setting up monitoring system using percona monitoring tool."
+	[[params.projects.list.items]]
+        details = "Configured jenkins job to automate the build and deployment process."
+
+        [[params.projects.list]]
+        title = "Cisco IOTSP"
+        meta = "Jul 2015 - Aug 2018"
+        tagline = "Cisco IOTSP is a platform to solve common challenges in IoT environments where devices and applications are highly distributed. This new class of platform, an IoT data fabric, helps you put compute power where you need it. Get the right data to the right applications at the right time to drive better business outcomes. Now it’s a part of Cisco kinetic product."
+        technologies = "Technologies: Docker, Mesos, Marathon, Zookeeper, Consul, Chronos, Artifactory, Git, Jenkins, Terraform, Ansible, Packer, Vagrant, AWS, Openstack, Vagrant, Cloud-init, Telegraf, Influxdb, Grafana, Kapacitor, CentOS, Ubuntu, shell, python, awscli, infosec, kubernetes, pagerduty, pingdom, statuspage, Jira."
+        [[params.projects.list.items]]
+        details = "Worked on complex enterprise application in Cloud Infrastructure domain."
+	[[params.projects.list.items]]
+        details = "Experience in building fairly complex micro-services based IoT-platform using Docker, Mesos, Marathon, Zookeeper, Consul DNS discovery, HAProxy, Chronos, Artifactory, Terraform, Ansible, Packer, Vagrant, Cloud-init."
+	[[params.projects.list.items]]
+        details = "Development and implementation of various AWS public cloud offerings like EC2, RDS, S3, Route53, VPC, EBS, EFS, aws spot instance, aws autoscaling groups, etc"
+	[[params.projects.list.items]]
+        details = "Developed docker images for infra components."
+	[[params.projects.list.items]]
+        details = "Handled system-level upgrades like OS and kernel upgrades."
+	[[params.projects.list.items]]
+        details = "Experience with monitoring stack like TIGK (Telegraf Influxdb Grafana Kapacitor), private cloud openstack, shell & python scripting."
+	[[params.projects.list.items]]
+        details = "Experience working in Linux environment - CentOS, Ubuntu."
+	[[params.projects.list.items]]
+        details = "Extensively worked on Agile (SCRUM) model."
+	[[params.projects.list.items]]
+        details = "Worked with aws and openstack clients like awscli, python-openstackclient."
+	[[params.projects.list.items]]
+        details = "Worked on applying infosec changes for OS and container hardening. Also applying vulnerability patches like Dirty COW, spectre, meltdown."
+	[[params.projects.list.items]]
+        details = "Sound knowledge of container runtime like Docker (runc, containerd), container orchestrator like Mesos, kubernetes."
+	[[params.projects.list.items]]
+        details = "On-call in ops team used tools like pagerduty, pingdom, statuspage."
+	[[params.projects.list.items]]
+        details = "Experience with Jira and Confluence."
+	[[params.projects.list.items]]
+        details = "Linux and container debugging skills."
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Technology Stack"
+        [[params.information.list.items]]
+        details = "CI/CD - Jenkins"
+        [[params.information.list.items]]
+        details = "Virtualization - AWS, Openstack, IBM Bluemix"
+	[[params.information.list.items]]
+        details = "Infrastructure Automation - Terraform, Vagrant, Packer, Rancher"
+	[[params.information.list.items]]
+        details = "Service Discovery - Consul"
+	[[params.information.list.items]]
+        details = "Load Balancer - HAProxy, Nginx, AWS ELB"
+	[[params.information.list.items]]
+        details = "Configuration Management - Ansible"
+	[[params.information.list.items]]
+        details = "Container Runtime - Docker"
+	[[params.information.list.items]]
+        details = "Container Orchestrator - Mesos, Kubernetes"
+	[[params.information.list.items]]
+        details = "Monitoring - TIGK [Telegraf, InfluxDB, Grafana, Kapacitor], Percona, Prometheus, Alertmanager"
+	[[params.information.list.items]]
+        details = "API Gateway - Kong, nginx-ingress"
+	[[params.information.list.items]]
+        details = "Container Security - Twistlock, coreos clair, docker-bench security"
+	[[params.information.list.items]]
+        details = "Scripting - Shell, Python"
+	[[params.information.list.items]]
+        details = "Database - Elasticsearch, MongoDB"
+	[[params.information.list.items]]
+        details = "Log Collector - Fluentd, Filebeat"
+	[[params.information.list.items]]
+        details = "Streaming Platform - Kafka"
+	[[params.information.list.items]]
+        details = "Packaging Tool - Helm"
+	[[params.information.list.items]]
+        details = "Visualization - Kibana"
+	[[params.information.list.items]]
+        details = "Source Code Management - Git"
+	[[params.information.list.items]]
+        details = "Ticketing System - Jira"
+	[[params.information.list.items]]
+        details = "Collaboration Software - Confluence"
+	[[params.information.list.items]]
+        details = "Operations Tools - Pagerduty, Pingdom, Statuspage"
+	[[params.information.list.items]]
+        details = "Operating systems - Ubuntu, CentOS"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Table Tennis, Computers, Gaming, Reading"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/milindchawre"
+        title = "milindchawre"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/milind-chawre"
+        title = "milind-chawre"
+        [[params.social.list]]
+        icon = "fab fa-stack-overflow"
+        url = "//stackoverflow.com/users/6790948/mchawre?tab=profile"
+        title = "mchawre"
+
+
+
+
+
