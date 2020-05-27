@@ -431,6 +431,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-twitter-square"
         url = "//twitter.com/milindchawre"
         title = "@milindchawre"
+	[[params.social.list]]
+        icon = "fas fa-blog"
+        url = "//milindchawre.github.io/site"
+        title = "blog"
+	[[params.social.list]]
+        icon = "fab fa-facebook-square"
+        url = "//facebook.com/milind.chawre"
+        title = "milind.chawre"
 
 
 
