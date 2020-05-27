@@ -427,6 +427,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-stack-overflow"
         url = "//stackoverflow.com/users/6790948/mchawre?tab=profile"
         title = "mchawre"
+	[[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/milindchawre"
+        title = "@milindchawre"
 
 
 
