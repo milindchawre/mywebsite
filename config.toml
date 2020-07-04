@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Milind Chawre"
-        tagline = "DevOps Engineer"
+        tagline = "Senior DevOps Engineer"
         avatar = "myavatar.png"
 
 
@@ -48,8 +48,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "milindchawre@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
-        text = "http://milindchawre.github.io"
+        url = "site/"
+        text = "http://milindchawre.github.io/site/"
 
 
 
@@ -178,7 +178,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "I am DevOps Engineer working at TomTom with around 5 years of experience. As a devops/SRE role, have worked on different cutting edge technologies. I enjoy creating great products with great user experiences and working in a dynamic environment with a focus on good development practices, automation, frequent releases. An Open source contributor. Loves coding, debugging, systems, security, devops, containers, docker, kubernetes, cloud ..."
+        text = "I am devops geek who is passionate about cloud native technologies and anything related to docker & kubernetes. Loves to get involve in open source community to learn new things and blogs about it. I also enjoy building systems from scratch following all best practices."
 
 
 
@@ -191,10 +191,28 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "DevOps Engineer"
-        dates = "Aug 2018 - Present"
+        title = "Senior DevOps Engineer"
+        dates = "May 2020 - Present"
         company = "TomTom"
-        details = "Works as a sole devops engineer for a team of 20-25 developers. I build and owns end-to-end devops pipeline for the entire team. It includes designing, implementing and automating infrastructure along with monitoring, logging, alerting and operations part of the system in place."
+        details = "Responsible for managing devops activities within addressing which is a sub-department in engineering. It includes designing, implementing and automating infrastructure from scratch and also handling production systems."
+        [[params.experience.list.items]]
+        details = "Incorporating devops culture within the team and department"
+	[[params.experience.list.items]]
+        details = "Infrastructure Automation"
+        [[params.experience.list.items]]
+        details = "Centralized Logging and Monitoring"
+	[[params.experience.list.items]]
+        details = "Own end-to-end devops pipeline"
+	[[params.experience.list.items]]
+        details = "Take concepts from ideation to production"
+        [[params.experience.list.items]]
+        details = "Cloud cost optimization."
+
+        [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "Aug 2018 - Apr 2020"
+        company = "TomTom"
+        details = "Works as a sole devops engineer for a team of 15-20 developers. I build and owns end-to-end devops pipeline for the entire team. It includes designing, implementing and automating infrastructure along with monitoring, logging, alerting and operations part of the system in place."
         [[params.experience.list.items]]
         details = "Infrastructure Automation"
 	[[params.experience.list.items]]
@@ -240,9 +258,59 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
+        title = "Blogging"
+        meta = "Apr 2020 - Present"
+        tagline = "I am passionate about cloud native technologies and anything related to docker & kubernetes. I loves to get involved in the open source community to learn new things and often blogs about it."
+	technologies = "Technologies: Hugo, Github Pages, Kubernetes, k3s, Okteto, Fairwinds Polaris, Fairwinds Goldilocks."
+	[[params.projects.list.items]]
+	details = "Used hugo and github pages to configure my personal website and blog."
+	[[params.projects.list.items]]
+        details = "Sign up as a beta tester in civo cloud community where I often play with their managed kubernetes service to try out new tools and technologies on top of kubernetes and blogs about it."
+	[[params.projects.list.items]]
+        details = "Also recently got involved in collabnix and kubezilla community where I blogged about kubernetes and cloud native stuff."
+	[[params.projects.list.items]]
+        details = "Loves to hang out on slack community channels to learn new things, connect with like-minded peoples and help others."
+
+        [[params.projects.list]]
+        title = "Addressing"
+        meta = "Feb 2020 - Present"
+        tagline = "Addressing is not a project but a sub-department in engineering, which basically handles the addressing related features in the Map. I am responsible to manage devops activities for addressing that includes infrastructure automation, configuring deployment pipelines, taking things from dev to production and so on."
+	technologies = "Technologies: Docker, Kubernetes, Rancher, Elasticsearch, Curator, Fluentd, Kibana, Grafana, Prometheus, Alertmanager, Helm, Nginx Ingress, ExternalDns, Jenkins, Ansible, Logstash, SonarQube."
+	[[params.projects.list.items]]
+	details = "Take part in decision making of tools and technologies for specific use-cases."
+	[[params.projects.list.items]]
+        details = "In-corporate devops culture within the team and department."
+	[[params.projects.list.items]]
+        details = "Get involved in taking concepts from ideation to production."
+        [[params.projects.list.items]]
+        details = "Lead the cloud cost optimization efforts across department."
+	[[params.projects.list.items]]
+        details = "Configured Rancher cluster in HA mode."
+	[[params.projects.list.items]]
+        details = "Setting up dev and production kubernetes clusters for multiple projects and teams. Managing those cluster."
+	[[params.projects.list.items]]
+        details = "Setting up centralize monitoring and alerting system using Prometheus and Alertmanager."
+	[[params.projects.list.items]]
+        details = "Configured centralize logging for kubernetes cluster using EFK (Elasticsearch, Fluentd, Kibana)."
+	[[params.projects.list.items]]
+        details = "Configured logstash for parsing logging indices with automated deployment."
+	[[params.projects.list.items]]
+        details = "Setting up Jenkins server and configuring SonarQube for code quality analysis."
+        [[params.projects.list.items]]
+        details = "Use combination of jenkins jobs, terraform, helm and ansible for the deployment."
+        [[params.projects.list.items]]
+        details = "Create helm charts for java springboot based services."
+        [[params.projects.list.items]]
+        details = "Configure Jenkins job for build and deployment."
+        [[params.projects.list.items]]
+        details = "Create dashboards on Grafana and configure curator for elasticsearch index cleanup and backup."
+        [[params.projects.list.items]]
+        details = "Setting up nginx-ingress with externaldns for auto configuration of AWS route 53 entries."
+
+        [[params.projects.list]]
         title = "Workflow"
-        meta = "Feb 2019 - Present"
-        tagline = "Workflow focuses on streamlining the entire map making process and making it more productive. Its a sort of BPM for map making process that will act as a workflow engine. It will track all the maps sources (leads) moving through different systems belonging to different departments in the company and will track and analyze this map data. This project is in POC phase."
+        meta = "Feb 2019 - Jan 2020"
+        tagline = "Workflow focuses on streamlining the entire map making process and making it more productive. Its a sort of BPM for map making process that will act as a workflow engine. It will track all the maps sources (leads) moving through different systems belonging to different departments in the company and will track and analyze this map data."
 	technologies = "Technologies: Docker, Kubernetes, Rancher, Elasticsearch, Fluentd, Kibana, Grafana, Prometheus, Kafka, Helm, Cert Manager, Nginx Ingress, camunda."
 	[[params.projects.list.items]]
 	details = "Setting up production ready kubernetes cluster using rancher on AWS. Also evaluated kubespray tool."
@@ -266,7 +334,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.projects.list]]
         title = "Prithvi (Priority Through Varied Information)"
-        meta = "Aug 2018 - Present"
+        meta = "Aug 2018 - Jan 2020"
         tagline = "Prithvi is an Map Quality Specification (MQS) tool, which defines the map quality. This system gives priority of particular location so that map editors can priorities there map editing tasks."
 	technologies = "Technologies: Java, HaProxy, Elasticsearch, Kibana, Docker, AWS, Jenkins, Terraform, Ansible,Kong, Cachet, Grafana, Prometheus."
 	[[params.projects.list.items]]
