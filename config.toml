@@ -125,6 +125,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.awards]
         enable = true
 
+	[[params.awards.list]]
+        name = "CivoCloud Ambassador"
+        body = "https://www.civo.com/ambassadors"
+        date = "2020"
+
         [[params.awards.list]]
         name = "Open sorcerer Award"
         body = "Open source contribution in Docker"
@@ -256,6 +261,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.projects]
         enable = true
+
+	[[params.projects.list]]
+        title = "CivoCloud Ambassador"
+        meta = "Aug 2020 - Present"
+        tagline = "Due to my involvement in their community, I was elected as an Ambassador of CivoCloud. https://www.civo.com/ambassadors"
+
+	technologies = "Technologies: CivoCloud, CNCF technologies."
+	[[params.projects.list.items]]
+        details = "Got involved in [CivoCloud community](https://www.civo.com). Signed up to their [KUBE100](https://www.civo.com/kube100) beta program to test drive their managed kubernetes service."
+        [[params.projects.list.items]]
+        details = "Tried out various CNCF technologies on civo managed kubernetes cluster and blogged about it."
+        [[params.projects.list.items]]
+        details = "Got involved in civocloud community forum to help others and learn new things."
 
         [[params.projects.list]]
         title = "Blogging"
