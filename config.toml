@@ -69,13 +69,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "Kubernetes/Mesos/Rancher"
 	[[params.skills.list.items]]
-        details = "ELB/Haproxy"
+        details = "ELB/Azure LB/Haproxy"
 	[[params.skills.list.items]]
         details = "Kafka"
         [[params.skills.list.items]]
         details = "Terraform/Vagrant/Ansible"
         [[params.skills.list.items]]
-        details = "AWS/Openstack"
+        details = "AWS/Azure/Openstack"
         [[params.skills.list.items]]
         details = "Linux/Centos/Ubuntu"
 	[[params.skills.list.items]]
@@ -279,7 +279,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Blogging"
         meta = "Apr 2020 - Present"
         tagline = "I am passionate about cloud native technologies and anything related to docker & kubernetes. I loves to get involved in the open source community to learn new things and often blogs about it."
-	technologies = "Technologies: Hugo, Github Pages, Kubernetes, k3s, Okteto, Fairwinds Polaris, Fairwinds Goldilocks."
+	technologies = "Technologies: Hugo, Github Pages, Kubernetes, k3s, Okteto, Fairwinds Polaris, Fairwinds Goldilocks, Fairwinds Pluto."
 	[[params.projects.list.items]]
 	details = "Used hugo and github pages to configure my personal website and blog."
 	[[params.projects.list.items]]
@@ -290,8 +290,36 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Loves to hang out on slack community channels to learn new things, connect with like-minded peoples and help others."
 
         [[params.projects.list]]
+        title = "Orbis Search Addressing"
+        meta = "Feb 2022 - Present"
+        tagline = "Orbis Search Addressing is not a project but a sub-department in engineering, which basically handles the addressing related features in the Map. I am responsible to manage devops activities that includes infrastructure automation, configuring deployment pipelines, taking things from dev to production and so on."
+	technologies = "Technologies: Docker, Kubernetes, Grafana, Prometheus, Alertmanager, Scalyr, Helm, Terraform, Azure DevOps, GitHub Actions, Traefik Ingress, ExternalDns, Azure."
+	[[params.projects.list.items]]
+	details = "Take part in decision making of tools and technologies for specific use-cases."
+	[[params.projects.list.items]]
+        details = "In-corporate devops culture within the team and department."
+	[[params.projects.list.items]]
+        details = "Get involved in taking concepts from ideation to production."
+        [[params.projects.list.items]]
+        details = "Worked as cloud delegate for our department to lead and monitor cost optimization and other initiatives recommended by CCOE team."
+	[[params.projects.list.items]]
+        details = "Onboarded different teams on Azure."
+	[[params.projects.list.items]]
+        details = "Initial setup of azure right from subscription creation to subnetting, etc."
+	[[params.projects.list.items]]
+        details = "Enlisted guidelines for using azure to adhere with the guidelines listed by central CCOE team."
+	[[params.projects.list.items]]
+        details = "Deploying and managing multiple AKS cluster using terraform."
+	[[params.projects.list.items]]
+        details = "Used combination of azure devops, GitHub Actions, Helm charts and argocd for deployment in multiple projects."
+	[[params.projects.list.items]]
+        details = "Scalyr for centralize logging and prometheus, Grafana, alertmanager stack for monitoring."
+        [[params.projects.list.items]]
+        details = "Used different Azure services like Postgres Hyperscale Citus, Postgres Flexible server, CosmosDB, Fileshare, Blob Storage, Azure VMs, VM ScaleSets, NSG and so on."
+
+        [[params.projects.list]]
         title = "Addressing"
-        meta = "Feb 2020 - Present"
+        meta = "Feb 2020 - Jan 2022"
         tagline = "Addressing is not a project but a sub-department in engineering, which basically handles the addressing related features in the Map. I am responsible to manage devops activities for addressing that includes infrastructure automation, configuring deployment pipelines, taking things from dev to production and so on."
 	technologies = "Technologies: Docker, Kubernetes, Rancher, Elasticsearch, Curator, Fluentd, Kibana, Grafana, Prometheus, Alertmanager, Helm, Nginx Ingress, ExternalDns, Jenkins, Ansible, Logstash, SonarQube."
 	[[params.projects.list.items]]
@@ -441,17 +469,36 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.information.list]]
+        title = "Certifications"
+        [[params.information.list.items]]
+        details = "Certified Kubernetes Administrator (CKA) [Scored 98%]"
+        [[params.information.list.items]]
+        details = "Certified Kubernetes Application Developer (CKAD) [Scored 96%]"
+        [[params.information.list.items]]
+        details = "Certified Jenkins Engineer (CJE) [Scored ~76%]"
+        [[params.information.list.items]]
+        details = "Certified Calico Operator: Level 1"
+        [[params.information.list.items]]
+        details = "Certified Rancher Operator: Level 1"
+        [[params.information.list.items]]
+        details = "Certified Kubernetes Application Developer (CKAD) [Scored 96%]"
+        [[params.information.list.items]]
+        details = "Microsoft Certified Azure Fundamentals [Scored 85%]"
+        [[params.information.list.items]]
+        details = "Microsoft Certified Azure Administrator Associate [Scored 91.5%]"
+
+        [[params.information.list]]
         title = "Technology Stack"
         [[params.information.list.items]]
         details = "CI/CD - Jenkins"
         [[params.information.list.items]]
-        details = "Virtualization - AWS, Openstack, IBM Bluemix"
+        details = "Virtualization - AWS, Azure, Openstack, IBM Bluemix"
 	[[params.information.list.items]]
         details = "Infrastructure Automation - Terraform, Vagrant, Packer, Rancher"
 	[[params.information.list.items]]
         details = "Service Discovery - Consul"
 	[[params.information.list.items]]
-        details = "Load Balancer - HAProxy, Nginx, AWS ELB"
+        details = "Load Balancer - HAProxy, Nginx, Traefik, AWS ELB, Azure LB"
 	[[params.information.list.items]]
         details = "Configuration Management - Ansible"
 	[[params.information.list.items]]
@@ -485,15 +532,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
 	[[params.information.list.items]]
         details = "Operations Tools - Pagerduty, Pingdom, Statuspage"
 	[[params.information.list.items]]
-        details = "Operating systems - Ubuntu, CentOS"
+        details = "Operating systems - Ubuntu, CentOS, Windows"
 
         [[params.information.list]]
         title = "Interests"
         details = "Table Tennis, Computers, Gaming, Reading"
-
-
-
-
 
 
 
@@ -525,8 +568,4 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-facebook-square"
         url = "//facebook.com/milind.chawre"
         title = "milind.chawre"
-
-
-
-
 
