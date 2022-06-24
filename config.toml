@@ -8,9 +8,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
 [params]
     author = "MilindChawre"
     description = "DevOps Engineer Resume"
@@ -20,16 +17,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
     textPrimaryColor = "#292929"
 
 
-
-
     [params.profile]
         enable = true
         name = "Milind Chawre"
         tagline = "Senior DevOps Engineer"
         avatar = "myavatar.png"
-
-
-
 
 
 
@@ -45,14 +37,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "milindchawre@gmail.com"
+        text = "my@website.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "site/"
-        text = "http://milindchawre.github.io/site/"
-
-
-
+        text = "blogs"
 
 
 
@@ -63,31 +52,31 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "Bash/Python/Golang"
+        details = "Bash/Python"
 	[[params.skills.list.items]]
         details = "Docker/Helm/Packer"
         [[params.skills.list.items]]
         details = "Kubernetes/Mesos/Rancher"
 	[[params.skills.list.items]]
-        details = "ELB/Azure LB/Haproxy"
-	[[params.skills.list.items]]
-        details = "Kafka"
+        details = "ELB/Azure-LB/Haproxy"
         [[params.skills.list.items]]
         details = "Terraform/Vagrant/Ansible"
         [[params.skills.list.items]]
-        details = "AWS/Azure/Openstack"
+        details = "AWS/Azure"
         [[params.skills.list.items]]
-        details = "Linux/Centos/Ubuntu"
+        details = "Linux/Centos/Ubuntu/Windows"
 	[[params.skills.list.items]]
         details = "Elasticsearch/Logstash/Fluentd/Kibana"
 	[[params.skills.list.items]]
-        details = "Grafana/Prometheus"
+        details = "Grafana/Prometheus/Alertmanager"
 	[[params.skills.list.items]]
-        details = "Postgresql/MongoDB/DynamoDB"
+        details = "Postgresql/MongoDB/DynamoDB/RDS"
         [[params.skills.list.items]]
         details = "Infrastructure Automation"
         [[params.skills.list.items]]
-        details = "Building complex microservice architecture"
+        details = "Microservices"
+        [[params.skills.list.items]]
+        details = "CI/CD"
 
         [[params.skills.list]]
         title = "Professional"
@@ -102,11 +91,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
-
-
     [params.education]
         enable = true
 
@@ -114,11 +98,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         degree = "BE Computer"
         university = "Maharashtra Institute of Technology"
         dates = "2011 - 2015"
-
-
-
-
-
 
 
 
@@ -137,11 +116,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
-
-
     [params.languages]
         enable = true
 
@@ -154,11 +128,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 	[[params.languages.list]]
         name = "Marathi"
         level = "Native"
-
-
-
-
-
 
 
 
@@ -176,24 +145,26 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
-
-
     [params.summary]
         enable = true
-        text = "I am devops geek who is passionate about cloud native technologies and anything related to docker & kubernetes. Loves to get involve in open source community to learn new things and blogs about it. I also enjoy building systems from scratch following all best practices."
-
-
-
-
-
+        text = "Senior DevOps Engineer with 7+ years of hands-on-experience in architecting, automating and optimizing mission critical deployments over a large infrastructure, leveraging configuration management, CI/CD and devops processes. Gained hands-on experience in implementing core DevOps concepts such as containerization, virtualization, version control, cloud computing, database management and administration, load balancing, etc. by using a wide variety of technologies while working with AWS/Azure tools, Operating Systems and programming languages."
 
 
 
     [params.experience]
         enable = true
+
+        [[params.experience.list]]
+        title = "CivoCloud Ambassador"
+        dates = "Aug 2020 - Present"
+        company = "CivoCloud"
+        details = "CivoCloud is the first Managed Kubernetes Service based on K3s, with fasted time to bootup the kubernetes cluster within 2 minutes."
+        [[params.experience.list.items]]
+        details = "I was one of the very first users of their service under their [KUBE100](https://www.civo.com/blog/kube100-so-far) program."
+	[[params.experience.list.items]]
+        details = "I was elected as [CivoCloud Ambassador](https://www.civo.com/ambassadors), due to my contribution to their community."
+        [[params.experience.list.items]]
+        details = "My contributions are often in the form of blogs, github code contributions and general support in their community channel."
 
         [[params.experience.list]]
         title = "Senior DevOps Engineer"
@@ -202,16 +173,18 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Responsible for managing devops activities within addressing which is a sub-department in engineering. It includes designing, implementing and automating infrastructure from scratch and also handling production systems."
         [[params.experience.list.items]]
         details = "Incorporating devops culture within the team and department"
+        [[params.experience.list.items]]
+        details = "Subject Matter Expert for virtualization and containerization solutions"
 	[[params.experience.list.items]]
         details = "Infrastructure Automation"
         [[params.experience.list.items]]
-        details = "Centralized Logging and Monitoring"
+        details = "Design and implement microservice architectures on AWS and Azure"
 	[[params.experience.list.items]]
         details = "Own end-to-end devops pipeline"
 	[[params.experience.list.items]]
-        details = "Take concepts from ideation to production"
+        details = "Take ideas from conception to production"
         [[params.experience.list.items]]
-        details = "Cloud cost optimization."
+        details = "Lead cloud cost optimization efforts"
 
         [[params.experience.list]]
         title = "DevOps Engineer"
@@ -221,15 +194,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Infrastructure Automation"
 	[[params.experience.list.items]]
-        details = "Containerization"
+        details = "Build microservice architectures on AWS"
         [[params.experience.list.items]]
-        details = "Centralized Logging"
-        [[params.experience.list.items]]
-        details = "Monitoring and alerting"
+        details = "Subject Matter Expert for cloud computing"
 	[[params.experience.list.items]]
-        details = "Continuous Integration and Continuous Delivery"
+        details = "Automated deployments using CI/CD pipelines"
 	[[params.experience.list.items]]
-        details = "Incorporating devops culture in the team"
+        details = "Incorporating devops culture within the team"
 
         [[params.experience.list]]
         title = "DevOps Engineer"
@@ -255,37 +226,18 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
-
     [params.projects]
         enable = true
-
-	[[params.projects.list]]
-        title = "CivoCloud Ambassador"
-        meta = "Aug 2020 - Present"
-        tagline = "Due to my involvement in their community, I was elected as an Ambassador of CivoCloud. https://www.civo.com/ambassadors"
-
-	technologies = "Technologies: CivoCloud, CNCF technologies."
-	[[params.projects.list.items]]
-        details = "Got involved in [CivoCloud community](https://www.civo.com). Signed up to their [KUBE100](https://www.civo.com/kube100) beta program to test drive their managed kubernetes service."
-        [[params.projects.list.items]]
-        details = "Tried out various CNCF technologies on civo managed kubernetes cluster and blogged about it."
-        [[params.projects.list.items]]
-        details = "Got involved in civocloud community forum to help others and learn new things."
 
         [[params.projects.list]]
         title = "Blogging"
         meta = "Apr 2020 - Present"
         tagline = "I am passionate about cloud native technologies and anything related to docker & kubernetes. I loves to get involved in the open source community to learn new things and often blogs about it."
-	technologies = "Technologies: Hugo, Github Pages, Kubernetes, k3s, Okteto, Fairwinds Polaris, Fairwinds Goldilocks, Fairwinds Pluto."
+	technologies = "Technologies: Hugo, Github Pages, Kubernetes, k3s, Okteto, Fairwinds Polaris, Fairwinds Goldilocks, Fairwinds Pluto, CNCF Tech Stack."
 	[[params.projects.list.items]]
 	details = "Used hugo and github pages to configure my personal website and blog."
 	[[params.projects.list.items]]
-        details = "Sign up as a beta tester in civo cloud community where I often play with their managed kubernetes service to try out new tools and technologies on top of kubernetes and blogs about it."
-	[[params.projects.list.items]]
-        details = "Also recently got involved in collabnix and kubezilla community where I blogged about kubernetes and cloud native stuff."
+        details = "I Signed up as a beta tester in civo cloud community where I often play with their managed kubernetes service to try out new tools and technologies on top of kubernetes and blogs about it."
 	[[params.projects.list.items]]
         details = "Loves to hang out on slack community channels to learn new things, connect with like-minded peoples and help others."
 
@@ -295,27 +247,31 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "Orbis Search Addressing is not a project but a sub-department in engineering, which basically handles the addressing related features in the Map. I am responsible to manage devops activities that includes infrastructure automation, configuring deployment pipelines, taking things from dev to production and so on."
 	technologies = "Technologies: Docker, Kubernetes, Grafana, Prometheus, Alertmanager, Scalyr, Helm, Terraform, Azure DevOps, GitHub Actions, Traefik Ingress, ExternalDns, Azure."
 	[[params.projects.list.items]]
-	details = "Take part in decision making of tools and technologies for specific use-cases."
+	details = "Evaluated different tools and technologies by performing different POCs (proof-of-concepts) which helped teams while designing their systems."
 	[[params.projects.list.items]]
-        details = "In-corporate devops culture within the team and department."
+        details = "In-corporated devops culture within the team and department."
 	[[params.projects.list.items]]
-        details = "Get involved in taking concepts from ideation to production."
+        details = "I provided valuable inputs during initial phase of system design that saves considerable amount of time for the teams in designing the system."
         [[params.projects.list.items]]
-        details = "Worked as cloud delegate for our department to lead and monitor cost optimization and other initiatives recommended by CCOE team."
+        details = "I represented as Cloud Delegate to lead cloud cost optimization activities across the department and saved some thousands of dollars."
 	[[params.projects.list.items]]
-        details = "Onboarded different teams on Azure."
+        details = "I often convey teams about the recommendations made by central CCOE team (Cloud Center for Excellence team) and make sure they are enforced. These recommendation basically includes guidelines like tagging policies for cloud resources, cloud cost optimization recommendations, best practices for architecturing cloud resources and so on."
 	[[params.projects.list.items]]
-        details = "Initial setup of azure right from subscription creation to subnetting, etc."
+        details = "Azure is our preferred cloud provider now, so I sucessfully onboarded different teams from AWS to Azure cloud within one quarter to make sure we adhere to our cloud policy."
 	[[params.projects.list.items]]
-        details = "Enlisted guidelines for using azure to adhere with the guidelines listed by central CCOE team."
+        details = "I completely owned the process of onboarding on Azure, which includes initial setup of azure subscription, configuring subnets, tagging polcies and so on."
 	[[params.projects.list.items]]
-        details = "Deploying and managing multiple AKS cluster using terraform."
+        details = "Designed and implemented several microservice architectures on Azure cloud. These systems are build in automated way using Terraform making use of Azure Kubernetes Service (AKS)."
 	[[params.projects.list.items]]
-        details = "Used combination of azure devops, GitHub Actions, Helm charts and argocd for deployment in multiple projects."
+        details = "Appointed as a Subject Matter Expert to advise multiple teams on virtualization & containerization solutions."
 	[[params.projects.list.items]]
-        details = "Scalyr for centralize logging and prometheus, Grafana, alertmanager stack for monitoring."
+        details = "Used a combination of azure devops, GitHub Actions, Helm charts and argocd for deployment in multiple projects."
         [[params.projects.list.items]]
-        details = "Used different Azure services like Postgres Hyperscale Citus, Postgres Flexible server, CosmosDB, Fileshare, Blob Storage, Azure VMs, VM ScaleSets, NSG and so on."
+        details = "Configured centralize logging using scalyr to analyze system and service logs at single plane."
+        [[params.projects.list.items]]
+        details = "Prometheus, Alertmanager, Grafana stack is configured to monitor system and service level metrics."
+        [[params.projects.list.items]]
+        details = "Used different Azure services like Postgres Hyperscale Citus, Postgres Flexible server, CosmosDB, Fileshare, Blob Storage, AKS, Azure VMs, VM ScaleSets, Azure Datafactory, NSG and so on."
 
         [[params.projects.list]]
         title = "Addressing"
@@ -323,35 +279,35 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "Addressing is not a project but a sub-department in engineering, which basically handles the addressing related features in the Map. I am responsible to manage devops activities for addressing that includes infrastructure automation, configuring deployment pipelines, taking things from dev to production and so on."
 	technologies = "Technologies: Docker, Kubernetes, Rancher, Elasticsearch, Curator, Fluentd, Kibana, Grafana, Prometheus, Alertmanager, Helm, Nginx Ingress, ExternalDns, Jenkins, Ansible, Logstash, SonarQube."
 	[[params.projects.list.items]]
-	details = "Take part in decision making of tools and technologies for specific use-cases."
+	details = "Played a vital part in deciding on the technology and tools for various initiatives."
 	[[params.projects.list.items]]
-        details = "In-corporate devops culture within the team and department."
+        details = "Aided in the adoption of a devops culture among the team and department."
 	[[params.projects.list.items]]
-        details = "Get involved in taking concepts from ideation to production."
+        details = "Participated in the process of bringing ideas from conception to production."
         [[params.projects.list.items]]
-        details = "Lead the cloud cost optimization efforts across department."
+        details = "Oversee efforts to reduce cloud costs within department."
 	[[params.projects.list.items]]
-        details = "Configured Rancher cluster in HA mode."
+        details = "Configured Rancher in HA mode to build mulitple highly available Kubernetes clusters on AWS."
 	[[params.projects.list.items]]
-        details = "Setting up dev and production kubernetes clusters for multiple projects and teams. Managing those cluster."
+        details = "Prometheus, Grafana and Alertmanager are used to set up a centralised monitoring and alerting system for multiple clusters with 100+ nodes."
 	[[params.projects.list.items]]
-        details = "Setting up centralize monitoring and alerting system using Prometheus and Alertmanager."
+        details = "Built a highly available EFK stack (Elasticsearch, Fluentd, Kibana) to configure centralised logging of 100+ GBs of logs from multiple Kubernetes cluster."
 	[[params.projects.list.items]]
-        details = "Configured centralize logging for kubernetes cluster using EFK (Elasticsearch, Fluentd, Kibana)."
+        details = "Configured Logstash to parse 100+ GBs of logs so they could be analysed later in relevant dashboards."
 	[[params.projects.list.items]]
-        details = "Configured logstash for parsing logging indices with automated deployment."
+        details = "Designed and implemented a build system using Jenkins that can manage deployment over 100+ servers."
 	[[params.projects.list.items]]
-        details = "Setting up Jenkins server and configuring SonarQube for code quality analysis."
+        details = "Installed and configured SonarQube for code quality analysis of multiple codebases. "
         [[params.projects.list.items]]
-        details = "Use combination of jenkins jobs, terraform, helm and ansible for the deployment."
+        details = "Used a combination of Jenkins, Terraform, Helm and Ansible for deployment on 100+ nodes."
         [[params.projects.list.items]]
-        details = "Create helm charts for java springboot based services."
+        details = "Created helm charts for java springboot based services."
         [[params.projects.list.items]]
-        details = "Configure Jenkins job for build and deployment."
+        details = "Implemented elasticsearch index cleanup job using python SDK of elasticsearch that deletes old indices based on size and age, as per my research this feature is not yet available in any existing tools like curator."
         [[params.projects.list.items]]
-        details = "Create dashboards on Grafana and configure curator for elasticsearch index cleanup and backup."
+        details = "Automated the process of DNS record creation on AWS route53 for the services deployed on kubernetes cluster using a combination of nginx-ingress and externaldns."
         [[params.projects.list.items]]
-        details = "Setting up nginx-ingress with externaldns for auto configuration of AWS route 53 entries."
+        details = "Guided and supported multiple teams of 40+ developers in their day-to-day devops activities."
 
         [[params.projects.list]]
         title = "Workflow"
@@ -359,23 +315,23 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "Workflow focuses on streamlining the entire map making process and making it more productive. Its a sort of BPM for map making process that will act as a workflow engine. It will track all the maps sources (leads) moving through different systems belonging to different departments in the company and will track and analyze this map data."
 	technologies = "Technologies: Docker, Kubernetes, Rancher, Elasticsearch, Fluentd, Kibana, Grafana, Prometheus, Kafka, Helm, Cert Manager, Nginx Ingress, camunda."
 	[[params.projects.list.items]]
-	details = "Setting up production ready kubernetes cluster using rancher on AWS. Also evaluated kubespray tool."
+	details = "Evaluated different tools like kubespray, AWS EKS, KOPS, etc for configuring Kubernetes cluster, in the end settled down on Rancher."
 	[[params.projects.list.items]]
-        details = "Configured grafana as dashboard, prometheus for monitoring."
+        details = "Designed and implemented a microservice architecture using Kubernetes on AWS. Rancher was used to configure the cluster with monitoring and logging enabled."
 	[[params.projects.list.items]]
-        details = "Configured Elasticsearch cluster with x-pack security enabled. Configured RBAC for kibana."
+        details = "Used rancher in-built monitoring stack, to configure monitoring using prometheus, alertmanager, garafana stack."
 	[[params.projects.list.items]]
-        details = "Configured kafka cluster with security features like encryption, authentication and authorization enabled."
+        details = "Set up the elasticsearch cluster with x-pack security enabled and RBAC on Kibana, that ingest the cluster and service level logs."
+	[[params.projects.list.items]]
+        details = "Installed and configured highly available streaming cluster using Kafka with security features like encryption, authentication and authorization enabled that can stream millions of leads (map sources) between different systems."
 	[[params.projects.list.items]]
         details = "Used helm charts to deploy any applications on kubernetes."
 	[[params.projects.list.items]]
-        details = "Used lets-encrypt cert manager to get valid ssl certificates."
+        details = "Exposed services deployed on kubernetes using nginx ingress controller to serve requests from increasing userbase."
 	[[params.projects.list.items]]
-        details = "Configured nginx ingress."
+        details = "Instrumented the java springboot based services using micrometer library to expose metrics in prometheus format."
 	[[params.projects.list.items]]
-        details = "Configured java springboot application monitoring using micrometer prometheus metrics exposer."
-	[[params.projects.list.items]]
-        details = "Configured camunda bpmn engine on kubernetes."
+        details = "Built a workflow engine using Camunda on top of kubernetes that orchestrates millions of leads (maps sources) between different systems."
 
 
         [[params.projects.list]]
@@ -384,27 +340,21 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "Prithvi is an Map Quality Specification (MQS) tool, which defines the map quality. This system gives priority of particular location so that map editors can priorities there map editing tasks."
 	technologies = "Technologies: Java, HaProxy, Elasticsearch, Kibana, Docker, AWS, Jenkins, Terraform, Ansible,Kong, Cachet, Grafana, Prometheus."
 	[[params.projects.list.items]]
-        details = "Dockerizing the java applications."
+        details = "Containerized Java based services using Docker."
 	[[params.projects.list.items]]
-        details = "Setting up AWS infrastructure using terraform and ansible."
+        details = "Designed and implemented IAAS platform on AWS with automated deployment using Terraform, Ansible and Jenkins."
 	[[params.projects.list.items]]
-        details = "Used different AWS services like EC2, VPC, IAM, Route53, ECR, RDS, Elasticache (Redis) etc."
+        details = "Employed different AWS services like EC2, VPC, IAM, Route53, ECR, RDS, Elasticache (Redis) etc."
 	[[params.projects.list.items]]
-        details = "Setting up Elasticsearch and kibana."
+        details = "Configured highly available elasticsearch stack (elasticsearch, kibana) on AWS with RAID0 disks for faster read/writes to store geospatial data."
 	[[params.projects.list.items]]
-        details = "Configured elasticsearch backup and restore mechanism."
+        details = "To adhere with data retention policies, elasticsearch backup and restore mechanism is enforced. The backup data is stored on AWS S3."
 	[[params.projects.list.items]]
-        details = "Configured RAID0 for elasticsearch."
+        details = "Evaluated and deployed highly available api gateway using Kong that serves request to increasing user base, behind the scenes the internal services where exposed using HAProxy."
 	[[params.projects.list.items]]
-        details = "Configured HaProxy load balancer."
+        details = "Built an internal status page for the system to notify about the overall system state to internal teams using Cachet."
 	[[params.projects.list.items]]
-        details = "Configured Kong as api gateway."
-	[[params.projects.list.items]]
-        details = "Configured jenkins job to automate the build and deployment process."
-	[[params.projects.list.items]]
-        details = "Evaluated Cachet (an open source tool similar to status page)."
-	[[params.projects.list.items]]
-        details = "Configured Grafana and Prometheus for monitoring."
+        details = "Employed Grafana and Prometheus to monitor the system."
 
         [[params.projects.list]]
         title = "SAMBA (Source AutoMation and Blending Agent)"
@@ -412,17 +362,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "SAMBA is a unified source database that will help in map making process. It ingests, and aggregates leads (map data) from various sources. This system overall helps map editors in there map editing tasks."
 	technologies = "Technologies: Nodejs, Java, MongoDB, Percona-monitoring, Docker, AWS, Jenkins, Terraform, Ansible."
 	[[params.projects.list.items]]
-        details = "Dockerizing the Nodejs frontend and java backend applications."
+        details = "Containerized frontend (Nodejs) and backend (Java) applications using Docker."
 	[[params.projects.list.items]]
-        details = "Setting up AWS infrastructure using terraform and ansible."
+        details = "Designed and implemented IAAS platform on AWS with automated deployment using Terraform, Ansible and Jenkins."
 	[[params.projects.list.items]]
-        details = "Used different AWS services like EC2, VPC, IAM, Route53, ECR, etc."
+        details = "Employed different AWS services like EC2, VPC, IAM, Route53, ECR, etc."
 	[[params.projects.list.items]]
-        details = "Setting up MongoDB replicaset."
+        details = "Implemented highly available database using MongoDB cluster on AWS to store Map data."
 	[[params.projects.list.items]]
-        details = "Setting up monitoring system using percona monitoring tool."
-	[[params.projects.list.items]]
-        details = "Configured jenkins job to automate the build and deployment process."
+        details = "Designed and implemented monitoring for entire system including database using Percona monitoring tool."
 
         [[params.projects.list]]
         title = "Cisco IOTSP"
@@ -432,34 +380,31 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.projects.list.items]]
         details = "Worked on complex enterprise application in Cloud Infrastructure domain."
 	[[params.projects.list.items]]
-        details = "Experience in building fairly complex micro-services based IoT-platform using Docker, Mesos, Marathon, Zookeeper, Consul DNS discovery, HAProxy, Chronos, Artifactory, Terraform, Ansible, Packer, Vagrant, Cloud-init."
+        details = "Experience in building fairly complex microservices based IoT-platform using Docker, Mesos, Marathon, Zookeeper, Consul DNS discovery, HAProxy, Chronos, Artifactory, Terraform, Ansible, Packer, Vagrant, Cloud-init."
 	[[params.projects.list.items]]
         details = "Development and implementation of various AWS public cloud offerings like EC2, RDS, S3, Route53, VPC, EBS, EFS, aws spot instance, aws autoscaling groups, etc"
 	[[params.projects.list.items]]
-        details = "Developed docker images for infra components."
+        details = "Developed docker base images for infra components."
 	[[params.projects.list.items]]
         details = "Handled system-level upgrades like OS and kernel upgrades."
 	[[params.projects.list.items]]
-        details = "Experience with monitoring stack like TIGK (Telegraf Influxdb Grafana Kapacitor), private cloud openstack, shell & python scripting."
+        details = "Experience with monitoring stack like TIGK (Telegraf Influxdb Grafana Kapacitor), private cloud openstack, shell and python scripting."
 	[[params.projects.list.items]]
         details = "Experience working in Linux environment - CentOS, Ubuntu."
 	[[params.projects.list.items]]
         details = "Extensively worked on Agile (SCRUM) model."
 	[[params.projects.list.items]]
-        details = "Worked with aws and openstack clients like awscli, python-openstackclient."
+        details = "Worked with AWS and Openstack clients like awscli, python-openstackclient."
 	[[params.projects.list.items]]
-        details = "Worked on applying infosec changes for OS and container hardening. Also applying vulnerability patches like Dirty COW, spectre, meltdown."
+        details = "Worked on applying infosec changes for OS and container hardening. Also applied patches for vulnerabilities like Dirty COW, spectre, meltdown."
 	[[params.projects.list.items]]
-        details = "Sound knowledge of container runtime like Docker (runc, containerd), container orchestrator like Mesos, kubernetes."
+        details = "Sound knowledge of container runtime like Docker (runc, containerd), container orchestrator like Mesos and kubernetes."
 	[[params.projects.list.items]]
-        details = "On-call in ops team used tools like pagerduty, pingdom, statuspage."
+        details = "On-call in ops team to monitor production systems, also used operations tools like pagerduty, pingdom, statuspage."
 	[[params.projects.list.items]]
         details = "Experience with Jira and Confluence."
 	[[params.projects.list.items]]
-        details = "Linux and container debugging skills."
-
-
-
+        details = "Hands-on Linux and container debugging skills."
 
 
 
@@ -475,28 +420,26 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list.items]]
         details = "Certified Kubernetes Application Developer (CKAD) [Scored 96%]"
         [[params.information.list.items]]
+        details = "Microsoft Certified Azure Fundamentals [Scored 85%]"
+        [[params.information.list.items]]
+        details = "Microsoft Certified Azure Administrator Associate [Scored 91.5%]"
+        [[params.information.list.items]]
         details = "Certified Jenkins Engineer (CJE) [Scored ~76%]"
         [[params.information.list.items]]
         details = "Certified Calico Operator: Level 1"
         [[params.information.list.items]]
         details = "Certified Rancher Operator: Level 1"
-        [[params.information.list.items]]
-        details = "Certified Kubernetes Application Developer (CKAD) [Scored 96%]"
-        [[params.information.list.items]]
-        details = "Microsoft Certified Azure Fundamentals [Scored 85%]"
-        [[params.information.list.items]]
-        details = "Microsoft Certified Azure Administrator Associate [Scored 91.5%]"
 
         [[params.information.list]]
         title = "Technology Stack"
         [[params.information.list.items]]
-        details = "CI/CD - Jenkins"
+        details = "CI/CD - Jenkins, Azure Devops, Github Actions"
         [[params.information.list.items]]
-        details = "Virtualization - AWS, Azure, Openstack, IBM Bluemix"
+        details = "Cloud Computing - AWS, Azure, Openstack, IBM Bluemix"
 	[[params.information.list.items]]
         details = "Infrastructure Automation - Terraform, Vagrant, Packer, Rancher"
 	[[params.information.list.items]]
-        details = "Service Discovery - Consul"
+        details = "Service Discovery - Consul, CoreDNS"
 	[[params.information.list.items]]
         details = "Load Balancer - HAProxy, Nginx, Traefik, AWS ELB, Azure LB"
 	[[params.information.list.items]]
@@ -506,19 +449,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
 	[[params.information.list.items]]
         details = "Container Orchestrator - Mesos, Kubernetes"
 	[[params.information.list.items]]
-        details = "Monitoring - TIGK [Telegraf, InfluxDB, Grafana, Kapacitor], Percona, Prometheus, Alertmanager"
+        details = "Monitoring - TIGK (Telegraf, InfluxDB, Grafana, Kapacitor), Percona, Prometheus, Alertmanager"
 	[[params.information.list.items]]
-        details = "API Gateway - Kong, nginx-ingress"
+        details = "API Gateway - Kong, Nginx-ingress, Traefik-ingress"
 	[[params.information.list.items]]
-        details = "Container Security - Twistlock, coreos clair, docker-bench security"
+        details = "Container Security - Twistlock, Coreos Clair, Docker-bench security, KubeClarity"
 	[[params.information.list.items]]
-        details = "Scripting - Shell, Python"
+        details = "Scripting - Bash, Python"
 	[[params.information.list.items]]
-        details = "Database - Elasticsearch, MongoDB"
+        details = "Database - Elasticsearch, MongoDB, PostgreSQL, RDS"
 	[[params.information.list.items]]
         details = "Log Collector - Fluentd, Filebeat"
-	[[params.information.list.items]]
-        details = "Streaming Platform - Kafka"
 	[[params.information.list.items]]
         details = "Packaging Tool - Helm"
 	[[params.information.list.items]]
@@ -532,7 +473,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 	[[params.information.list.items]]
         details = "Operations Tools - Pagerduty, Pingdom, Statuspage"
 	[[params.information.list.items]]
-        details = "Operating systems - Ubuntu, CentOS, Windows"
+        details = "Operating systems - Ubuntu, CentOS, Linux, Windows"
 
         [[params.information.list]]
         title = "Interests"
